@@ -4,15 +4,28 @@ body {
 }
 
 .genero-container {
-  margin: 20px;
+  margin: 20;
   padding: 20px;
   border: 1px solid #ccc;
   background-color: #f8f8f8;
+}
+
+.genero {
+  display: flex;
+  gap: 20px;
+  overflow: auto;
+  padding: 10px;
+}
+
+.peliculas {
+  width: 50px;
+  text-align: center;
+  padding: 10px;
+  border-radius: 10px;
+  transition: transform 0.3 ease-in-out;
 }
 
 h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
 }
-
-
